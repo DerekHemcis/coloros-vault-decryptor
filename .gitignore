@@ -1,0 +1,42 @@
+# 设备数据 —— 绝不提交
+# 如果你把本仓库 fork/复刻到本地并放入了自己的数据, 以下都应当被忽略
+encryption.db
+encrypted_key_sp.xml
+*.hex
+*_key_sp.xml
+namemap.tsv
+mtimes.tsv
+rename.sh
+restore.sh
+
+# 编译/构建产物
+*.o
+*.so
+*.a
+vaultdec
+runas
+probe.dex
+*.class
+build/
+dist/
+
+# 解密出的媒体文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.mp4
+*.MP4
+*.mov
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+
+# 备份与临时
+*.tgz
+*.tar.gz
+*.bak
+*~
